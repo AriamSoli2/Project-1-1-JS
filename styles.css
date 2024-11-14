@@ -1,0 +1,132 @@
+body {
+    background-color: aliceblue;
+    font-family: "Roboto Mono" ;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+}
+
+h2 {
+    padding: 20px;
+}
+
+li a:hover {
+    background-color: #6e7b93;
+}
+
+.col {
+    padding: 20px;
+    line-height: 2em;
+}
+
+.img-thumbnail {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    background-color: #6e7b93;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Contact Page Styles */
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Mono";
+  }
+  
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;  
+  }
+  
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* CSS for Income Tax Calculator */
+
+.calculator-section {
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px; 
+    border: 2px solid rgb(29, 29, 48); 
+    background-color: white; 
+}
+
+.calculator-section h1 {
+    color: rgb(29, 29, 48);
+    text-align: center;
+}
+
+.calculator-section div {
+    margin-bottom: 1em;
+}
+
+.calculator-section label {
+    display: inline-block;
+    width: 11em;
+    text-align: center;
+}
+
+.calculator-section input {
+    margin-left: 0.4em;
+    margin-right: 0.5em;
+}
+
+.calculator-section span {
+    color: red;
+}
+
